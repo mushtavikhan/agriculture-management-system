@@ -1,0 +1,46 @@
+//To create admin account
+//Password: admin123
+/*
+Step 1: Open terminal and go to backend
+
+cd backend
+
+Step 2: Start Laravel Tinker
+
+php artisan tinker
+
+Step 3: Generate the hashed password
+
+Hash::make('admin123');
+
+Step 4: Copy the complete hash returned by Tinker.
+
+Example:
+
+$2y$12$b4pTnA3uV2yqDxIDZfGn7eK7U6T7UQjeTgO/p6nuk2gJJVjiSC7EC
+
+Step 5: Open phpMyAdmin.
+
+Select the Paikari database → select the users table → open the SQL tab.
+
+Step 6: Paste the hash into the password field of the SQL query.
+*/
+
+INSERT INTO users
+(
+    name,
+    email,
+    password,
+    role,
+    created_at,
+    updated_at
+)
+VALUES
+(
+    'Error Admin',
+    'Error@paikari.com',
+  '\$2y\$12\$SuP/zhLHVL4gGf45pS5h9.IgYc/.C1GqriuEq9fI5oP8E4VzHh3jK',
+    'admin',
+    NOW(),
+    NOW()
+);
