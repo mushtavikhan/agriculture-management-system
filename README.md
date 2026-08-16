@@ -6,7 +6,7 @@ The main idea behind this project is to solve some common problems faced by farm
 
 This project mainly focuses on the database design and implementation of the Agriculture Management System. It includes the relational database structure, SQL scripts, ER diagram documentation, sample data, and different database queries.
 
-
+---
 
 📌 About the Project
 
@@ -30,7 +30,7 @@ The main areas covered by the system are:
 
 The database is developed using **MySQL** as the relational database management system.
 
-
+---
 
 🌱 Purpose of the Project
 
@@ -40,7 +40,7 @@ Small farmers often face different problems in their daily farming activities. B
 
 This project tries to solve these problems by keeping the necessary information in one centralized system. By organizing the data properly, the system can make farming records easier to maintain and can also help farmers make better decisions.
 
-
+---
 
 🤝 Social Benefits
 
@@ -55,7 +55,7 @@ The Agriculture Management System can provide several practical benefits to farm
 * Time saving:** Keeping information in a database makes searching and updating records easier.
 * Support for small farmers:** The system can be especially useful for farmers who have limited access to expensive equipment and proper record-management systems.
 
-
+---
 
 🎯 Project Goals
 
@@ -66,7 +66,7 @@ The main goals of the Agriculture Management System are:
 * To improve access to market information and price visibility.
 * To help farmers make better decisions using their stored data.
 
-
+---
 
 🎯 Project Objectives
 
@@ -79,6 +79,7 @@ The system is designed to support the following objectives:
 * Calculate the profit of different farming seasons.
 * Generate useful reports from the stored agricultural data.
 
+---
 
 ⚙️ Main Functionalities
 
@@ -96,7 +97,7 @@ It keeps information about:
 
 Through this part of the system, farmers can request equipment when they need it instead of having to purchase the equipment themselves. The database also keeps track of rental-related information.
 
-
+---
 
   🌾 Farm and Crop Management
 
@@ -130,7 +131,7 @@ The system can store information such as:
 
 Keeping weather records can help maintain a history of the weather conditions experienced by a particular piece of land.
 
-
+---
 
   🌽 Harvest Management
 
@@ -147,7 +148,7 @@ The database records information such as:
 
 This allows the system to connect a harvest with the specific planting record from which it came.
 
-
+---
 
   💰 Sales and Market Management
 
@@ -164,7 +165,7 @@ It manages information about:
 
 The information stored in this section can later be used to calculate revenue and understand the profitability of different farming activities.
 
-
+---
 
   📊 Profit Calculation and Reports
 
@@ -179,7 +180,7 @@ The stored information about harvesting and sales can be used for:
 
 By combining information from different parts of the database, the system can give a better overall picture of a farmer's farming activities.
 
-
+---
 
  🗄️ Database Design
 
@@ -201,7 +202,7 @@ Some of the important database concepts used in the design are:
 The database structure is based on the ER model that was prepared for the project proposal.
 
 
-
+---
 
 
 🔗 Integrated ER Model
